@@ -1,5 +1,5 @@
 package hellogo
 
-func SayHello() string {
-	return "Hello go land"
+func SayHello(name string) string {
+	return "Hello " + name
 }
